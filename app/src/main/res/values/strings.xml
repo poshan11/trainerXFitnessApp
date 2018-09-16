@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TrainerX</string>
+    <string name="title_activity_basic">BasicActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="weight_prompt">Choose a weight type</string>
+    <string name="CaseyExercises">List of exercises that Casey gave , grouped according to categories</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="weight_arrays">
+        <item>Dumbell</item>
+        <item>Kettle Bell </item>
+        <item>qwerty</item>
+        <item>Barbell</item>
+    </string-array>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="number_picker_formatter">%02d</string>
+    <!-- Font -->
+    <string name="roboto_regular">sans-serif</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_condensed">sans-serif-condensed</string>
+    <string name="roboto_thin">sans-serif-thin</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+    <string name="client_info">Age\t:21\n\n Height:5ft 10 in \n\n Note:\n\n Left shoulder injury - Avoid weights higher than 15lbs</string>
+    <string name="reps">Reps</string>
+    <string name="_0">0</string>
+    <string name="time">Time</string>
+    <string name="hrs">hrs</string>
+    <string name="_00">00</string>
+    <string name="mins">mins</string>
+    <string name="secs">secs</string>
+    <string name="comment">Comment</string>
+    <string name="lbs">lbs</string>
+    <string name="distance">Distance</string>
+    <string name="weight">Weight</string>
+    <string name="back">Back</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="pin_label">PIN:</string>
+    <string name="miles">miles</string>
+</resources>

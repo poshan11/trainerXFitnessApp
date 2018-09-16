@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_color_blue_grey_400"
+    android:orientation="vertical"
+    tools:context=".AddCustomExerciseActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/CustomCancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:backgroundTint="@color/primary"
+                android:gravity="center_vertical"
+                android:text="Cancel"
+                android:textAlignment="center"
+                android:textColor="@color/material_text_color_white_text" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/CustomeSave"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@color/primary"
+                android:gravity="center_vertical"
+                android:text="Save"
+                android:textAlignment="center"
+                android:textColor="@color/material_text_color_white_text" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Enter Workout Name"
+            android:textAlignment="center"
+            android:textColor="@color/material_text_color_white_text"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/AddCustomWorkoutName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/material_text_color_white_text"
+            android:textColorHint="@color/material_text_color_white_text" />
+
+        <TextView
+            android:layout_marginStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Select Workout Type"
+            android:textAlignment="center"
+            android:textColor="@color/material_text_color_white_text"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:layout_marginStart="16dp"
+            android:id="@+id/customworkoutdropdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#00796B</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="accent">#FF9800</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="cancel_button">#c0392b</color>
+
+    <color name="borderColor">#181717</color>
+    <color name="text_colors">#ae4a5e</color>
+
+    <color name="colorPrimary_light">#673ab7</color><!-- Deep Purple 500 -->
+    <color name="colorPrimaryDark_light">#512da8</color><!-- Deep Purple 700 -->
+    <color name="colorAccent_light">#ff4081</color><!-- Pink A200 -->
+    <color name="colorAccentDark_light">#c51162
+    </color><!-- Pink A700: for statusBar in actionMode -->
+    <color name="colorPrimaryText_light">#de000000</color>
+
+    <!-- Common colors -->
+    <color name="list_choice_normal_bg_light">#fffafafa</color>
+    <color name="list_choice_pressed_bg_light">#fddd</color>
+
+    <!-- Override fastScroller bar color and handle idle color -->
+    <color name="fast_scroller_bar">#bccc</color>
+    <color name="fast_scroller_handle_idle">#caaa</color>
+</resources>

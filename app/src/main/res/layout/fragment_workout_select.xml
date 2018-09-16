@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="32dp"
+    android:paddingStart="32dp"
+    android:paddingTop="16dp"
+    tools:context=".WorkoutTemplateFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/exerciseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/exercise_name"
+            android:textAlignment="center"
+            android:textColor="@color/material_text_color_white_text"
+            android:textSize="@dimen/text_size2" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnAddSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/primary"
+            android:text="ADD SET"
+            android:textColor="#ffffff" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnRemoveSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/cancel_button"
+            android:paddingEnd="4dp"
+            android:paddingStart="4dp"
+            android:text="REMOVE SET"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/setLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/repId"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="REPETITIONS"
+            android:textColor="@color/material_text_color_white_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/repEditText"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRepEdit"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_add_circle_outline_black_24dp" />
+
+        <Button
+            android:id="@+id/btnRepRemove"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_remove_circle_outline_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/weightId"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="WEIGHTS"
+            android:textColor="@color/material_text_color_white_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/weightEditText"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnWeightEdit"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_add_circle_outline_black_24dp" />
+
+        <Button
+            android:id="@+id/btnWeightRemove"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_remove_circle_outline_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/timeId"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="TIME"
+            android:textColor="@color/material_text_color_white_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/timeEditText"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnTimeEdit"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_add_circle_outline_black_24dp" />
+
+        <Button
+            android:id="@+id/btnTimeRemove"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_remove_circle_outline_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/speedId"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="SPEED"
+            android:textColor="@color/material_text_color_white_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/speedEditText"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSpeedEdit"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_add_circle_outline_black_24dp" />
+
+        <Button
+            android:id="@+id/btnSpeedRemove"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_remove_circle_outline_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/distanceId"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="DISTANCE"
+            android:textColor="@color/material_text_color_white_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/distanceEditText"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnDistanceEdit"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_add_circle_outline_black_24dp" />
+
+        <Button
+            android:id="@+id/btnDistanceRemove"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_remove_circle_outline_black_24dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/commentEditText"
+        android:layout_width="700dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/back"
+        android:hint="Comment here "
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:textColor="@color/material_text_color_white_text"
+        android:textColorHint="@color/material_text_color_white_text"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/primary"
+        android:text="Save"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

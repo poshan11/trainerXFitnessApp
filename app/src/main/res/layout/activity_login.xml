@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_color_blue_grey_400"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/firstLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/firstPinView"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffffff"
+        android:text="@string/pin_label"
+        android:textSize="20sp"/>
+
+    <com.chaos.view.PinView
+        android:id="@+id/firstPinView"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:cursorVisible="true"
+        android:inputType="numberPassword"
+        android:textColor="@color/accent"
+        app:itemCount="6"
+        app:itemRadius="@dimen/pv_pin_view_item_radius" />
+
+</RelativeLayout>
