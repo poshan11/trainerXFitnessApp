@@ -1,5 +1,8 @@
 # TrainerX
 
+Screenshot of some functionalities:
+
+
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 
 Microsoft App Center:
