@@ -4,7 +4,7 @@
 
 ### Login Screen
 
-[![alt text](app/src/main/res/drawable-hdpi/login Screen.png?raw=true "Login Screen")]
+[![alt text](https://https://github.com/poshan11/trainerXFitnessApp/blob/master/app/src/main/res/drawable-hdpi/login%20Screen.png)]
 
 
 
