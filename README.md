@@ -1,6 +1,11 @@
 # TrainerX
 
-Screenshot of some functionalities:
+## Screenshot of some functionalities:
+
+### Login Screen
+
+![alt text](trainerXFitnessApp/app/src/main/res/drawable-hdpi/login Screen.png)
+
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
