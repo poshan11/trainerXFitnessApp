@@ -4,7 +4,7 @@
 
 ### Login Screen
 
-[![alt text](https://http://github.com/poshan11/trainerXFitnessApp/blob/master/app/src/main/res/drawable-hdpi/login%20Screen.png)]
+[![alt text](https://raw.githubusercontent.com/poshan11/trainerXFitnessApp/67592e01636baa86ee01a5445f4882e7c179caf3/app/src/main/res/drawable-hdpi/login%20Screen.png)]
 
 
 
